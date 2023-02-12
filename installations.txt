@@ -1,0 +1,38 @@
+# react 
+  npx create-react-app my-app
+  
+  npm i react-router-dom
+  
+  #font awesome
+  npm i --save @fortawesome/fontawesome-svg-core
+  npm i --save @fortawesome/free-solid-svg-icons
+  npm i --save @fortawesome/free-regular-svg-icons
+  npm i --save @fortawesome/react-fontawesome@latest
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      
+  
+  # iconify 
+  npm install --save-dev @iconify/react
+  import { Icon } from '@iconify/react';
+  <Icon icon="ph:book-open-thin" />
+  
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  
+  # tailwind
+  npm install -D tailwindcss
+  npx tailwindcss init
+  
+  # tailwind css script // not needed for react
+  <script src="https://cdn.tailwindcss.com"></script>
+
+# express
+  npx express-generator api
+  cd api
+  npm install
+  npm start
+  npm i --save-dev nodemon
+  npm i ejs
+
+
